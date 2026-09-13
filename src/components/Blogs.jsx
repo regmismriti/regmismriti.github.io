@@ -3,15 +3,15 @@ import { FaCalendarAlt, FaClock, FaArrowRight, FaBrain, FaWaveSquare, FaVideo } 
 
 const blogs = [
   {
-    slug: '/blog/attention-is-all-you-need',
-    cat: 'Deep Learning',
-    date: 'January 10, 2025',
-    read: '14 min read',
-    title: 'Attention Is All You Need — The Paper That Changed Everything',
-    excerpt: 'A thorough breakdown of the landmark 2017 Transformer paper. We unpack multi-head self-attention, positional encoding, and why this architecture became the backbone of modern AI.',
-    tags: ['Transformer', 'Attention', 'NLP'],
-    Icon: FaBrain,
-    grad: 'g1',
+  slug: '/blog/uncertainty-in-classification',
+  cat: 'Machine Learning',
+  date: 'September 12, 2026',
+  read: '18 min read',
+  title: 'Understanding Uncertainty in Classification — From Softmax to Evidential Deep Learning',
+  excerpt: 'A practical introduction to uncertainty quantification in classification, covering softmax confidence, entropy, calibration, Bayesian uncertainty, deep ensembles, and Evidential Deep Learning.',
+  tags: ['Uncertainty', 'Bayesian ML', 'EDL'],
+  Icon: FaBrain,
+  grad: 'g1',
   },
   {
     slug: '/blog/mamba-state-space-models',
