@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import Home from './pages/Home'
-import BlogAttention from './pages/BlogAttention'
+import BlogAttention from './pages/BlogUncertainty'
 import BlogMamba from './pages/BlogMamba'
 import BlogVlog from './pages/BlogVlog'
 import Verses from './pages/Verses'
@@ -20,7 +20,7 @@ export default function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/blog/attention-is-all-you-need" element={<BlogAttention />} />
+        <Route path="/blog/uncertainty in classification" element={<BlogUncertainty />} />
         <Route path="/blog/mamba-state-space-models" element={<BlogMamba />} />
         <Route path="/blog/ai-research-vlog" element={<BlogVlog />} />
         <Route path="/verses" element={<Verses />} />
