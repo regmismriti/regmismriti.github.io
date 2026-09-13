@@ -67,7 +67,7 @@ export default function BlogUncertainty() {
           </p>
 
           <div className="bp-callout">
-            <strong>📌 Key idea:</strong> A trustworthy model should not only
+            <strong>Key idea:</strong> A trustworthy model should not only
             answer <em>"What class do I predict?"</em> — it should also help us
             answer <em>"How much should I trust this prediction?"</em>
           </div>
@@ -954,7 +954,7 @@ KL[
           </p>
 
           <div className="bp-callout">
-            <strong>📌 Research principle:</strong> An uncertainty method should
+            <strong> Research principle:</strong> An uncertainty method should
             not be considered reliable simply because its mathematics contains
             an uncertainty variable. Its behavior must be tested empirically.
           </div>
